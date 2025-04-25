@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-deployment
-  namespace: dev
+  name: nmota-bu-playground
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: wilapp
+      app: nmota-bu-playground
   template:
     metadata:
       labels:
-        app: wilapp
+        app: nmota-bu-playground
     spec:
       containers:
-      - name: wil42playground
+      - name: nmota-bu-playground
         image: wil42/playground:v1
         ports:
         - containerPort: 80
