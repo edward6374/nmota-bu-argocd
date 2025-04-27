@@ -6,6 +6,5 @@ spec:
   selector:
     app: nmota-bu-playground
   ports:
-  - port: 8888
+  - port: 80
     targetPort: 8888
-    nodeport: 30888
