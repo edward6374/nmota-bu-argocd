@@ -8,4 +8,4 @@ spec:
   ports:
   - port: 8888
     targetPort: 8888
-    nodeport: 30888
+      #nodeport: 30888
